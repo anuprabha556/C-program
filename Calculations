@@ -1,0 +1,26 @@
+#include <stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("Enter two nos:");
+    scanf("%d%d",&a,&b);
+    printf("Addition:1\nMultiplication:2\nDivision:3\nSubtraction:4\n");
+    printf("Enter required no:");
+    scanf("%d",&c);
+    if (c==1)
+    {
+        printf("Sum of %d and %d is %d",a,b,a+b);
+    } 
+    if (c==2)
+    {
+        printf("Product of %d and %d is %d",a,b,a*b);
+    } 
+    if (c==3)
+    {
+        printf("Quotient of %d and %d is %d",a,b,a/b);
+    } 
+    if (c==4)
+    {
+        printf("Difference of %d and %d is %d",a,b,a-b);
+    } 
+    }
